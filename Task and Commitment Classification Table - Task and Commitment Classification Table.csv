@@ -1,0 +1,16 @@
+Group,Category #,Sub-Type,Definition / Context,Specific Examples,YES/NO(to keep for training)
+Group 1: Explicit Tasks,1,Direct Requests,"Clear, imperative instructions.","""Please send the report"", ""Review the doc by EOD.""",yes.
+,2,Soft Requests,Polite or inquisitive instructions.,"""Can you check this?"", ""Would you mind looking at it?""",no
+,3,Compound Tasks,Providing context followed by a request.,"""I uploaded the file. Can you review it?""",no
+,4,Action Questions,Questions that force a task delivery.,"""When can you send the invoice?""",no
+,5,Delegations,Assigning specific ownership to others.,"""Rahul, you handle the client call.""",yes
+,6,Corrections,Identifying an error and requesting a fix.,"""Wrong file attached, please resend correct one.""",no
+Group 2: Implicit Tasks,7,Implied Urgency,Highlighting pressure to prompt action.,"""The client is waiting for pricing.""",no
+,8,Gap Statements,Noting a missing piece of information.,"""We still don't have the vendor response.""",no
+,9,Problem Statements,Identifying an error that needs solving.,"""The numbers don't add up.""",maybe
+,10,Escalations,High-stakes alerts requiring intervention.,"""This is urgent, client calling every hour.""",no
+Group 3: Time-bound Items,11,Meeting Announcements,Calendar-based group synchronization.,"""Meeting at 9am tomorrow"", ""Team sync Thursday.""",yes
+,12,Deadline Mentions,Final cutoff points for deliverables.,"""Deadline is Friday"", ""Submit by EOD.""",yes
+,13,Scheduled Events,One-time or recurring operational events.,"""Server maintenance tonight"", ""Office closed Monday.""",yes
+,14,Future Plans,Intentions to meet or discuss later.,"""Let's discuss next week"", ""We should meet about this.""",yes
+Group 4: Commitments,15,Self-Commitments,Taking personal ownership of a task.,"""I'll send it by EOD"", ""Will handle it tomorrow.""",yes
